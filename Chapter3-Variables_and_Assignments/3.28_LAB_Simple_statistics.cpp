@@ -29,4 +29,30 @@
 // 1600.000 6.750
 // Note that fractions aren't discarded, and that overflow does not occur for the test case with large values.
 
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+   int num1;
+   int num2;
+   int num3;
+   int num4;
+   
+   cin >> num1 >> num2 >> num3 >> num4;
+   
+   int product; 
+   int avg;
+   
+   product = num1 * num2 * num3 * num4;
+   avg = (num1 + num2 + num3 + num4) / 4;
+   
+   cout << product << " " << avg << endl;
+   
+   cout << fixed << setprecision(3);
+   cout << double(num1*num2*num3*num4) << " " << double(num1+num2+num3+num4)/4 << endl; // second
+
+
+   return 0;
+}
 
