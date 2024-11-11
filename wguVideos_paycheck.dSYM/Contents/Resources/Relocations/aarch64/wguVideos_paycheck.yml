@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/brandonw/Desktop/WGU_CS/Scripting_and_Programming_Foundations_C867/zyBooks_Labs/wguVideos_paycheck'
+relocations:     []
+...
